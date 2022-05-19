@@ -7,16 +7,16 @@ This project focused on utilizing javascript, html, CSS and bootstrap to build a
 ### Results
 Displaying the data in a table makes the data easily digestible and the filters allow a person to be able to search for specific data. There are 5 filters that allow a user to filter the data by date, city, state, country, and shape. Utlizing the search bars on the left, a user can input either a date or text to search the columns in the table. D3.js allows the table to dynamically display the filtered data. 
 
-![Results](/images/1.PNG)
+![Results](/static/images/1.PNG)
 
 For example if a user wanted to search by the shape of a sighting, they could enter the shape (circle) and the table would display the filtered data. 
 
-![Results](/images/2.PNG)
+![Results](/static/images/2.PNG)
 
 This can also be done with city names. The user can enter a city name and the table will display the filtered results. 
 
 
-![Results](/images/3.PNG)
+![Results](/static/images/3.PNG)
 
 
 ### Summary
