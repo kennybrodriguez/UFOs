@@ -54,6 +54,8 @@ function updateFilters() {
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
+
+    let date = d3.select("#datetime").property("value");
   
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
@@ -61,7 +63,8 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     Object.entries(filters).forEach((val) => {
-      if ('date'===val[0]) {
+      console.log(val[0])
+      if ('datetime'===val[0]) {
         filteredData = filteredData.filter(row => row.datetime === val[1]);
       }else if ('city'===val[0]) {
         filteredData = filteredData.filter(row => row.city === val[1]);
